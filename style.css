@@ -1,0 +1,63 @@
+body {
+    font-family: Garamond;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+header h1,p{
+    text-align: center;
+}
+.BildText {
+    display: inline-block;
+    padding-bottom: 2%;
+}
+.BildText img {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.BildText .textbox {
+    float: left;
+    width: 45%;
+    text-align: justify;
+    margin-left: 1%;
+}
+.BildBild {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    margin-bottom: 3%;
+    display: inline-block;
+}
+.BildBild img {
+    width: 49%;
+    height: auto;   
+}
+.Bild {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.Bild img {
+    width: 100%;
+    height: auto;
+}
+article .textbox {
+    display: inline-block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+footer {
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+   }
