@@ -1,0 +1,145 @@
+body {
+    font-family: Garamond;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+header h1,p{
+    text-align: center;
+}
+.header {
+    text-align: center;
+}
+.BildText {
+    display: inline-block;
+    padding-bottom: 1%;
+}
+.BildText img {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.BildText .textbox {
+    float: left;
+    width: 45%;
+    text-align: justify;
+    margin-left: 1%;
+}
+.BildBild {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-items: center;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.BildBildBild {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  align-items: center;
+  margin-bottom: 2%;
+  display: inline-block;
+}
+.BildBildBild img {
+  width: 30%;
+  height: 549px;
+  object-fit: cover;
+} 
+.BildBild img {
+    width: 49%;
+    height: 549px;
+    object-fit: cover;
+  } 
+
+.Bild {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.Bild img {
+    width: 100%;
+    height: auto;
+}
+article .textbox {
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.middle {
+  position: relative;
+  left: 5%;
+}
+
+footer {
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+   }
+
+  
+.title {
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  nav {
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  
+  nav li {
+      display: inline-block;
+      position: relative;
+  padding: 0.6rem 0.8rem;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown {
+    position: absolute;
+    left: 0;
+    display: none;
+    background-color: #FFECFF;
+    margin-top: 0.6rem;
+  }
+  
+  .dropdown li {
+    width: 100%;
+    background-color: #FFECFF;
+  }
+  
+  nav ul li:hover > ul,
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  nav li:hover {
+    background-color: #fff4c3;
+  }
+  
+  .dropdown li:hover {
+    background-color: #fff4c3;
+  }
+    
