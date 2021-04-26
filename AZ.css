@@ -9,6 +9,15 @@ header h1,p{
 }
 .header {
     text-align: center;
+    padding-bottom: 6%;
+}
+
+h3 {
+ font-family: "Lora",Helvetica, sans-serif;
+ font-style: italic;
+ font-weight: lighter;
+ text-align: justify;
+
 }
 .BildText {
     display: inline-block;
